@@ -1,0 +1,255 @@
+
+header {
+    height:100vh;
+    min-height:200px;
+    background-size:cover;
+    background-image:url('image/backgroundimg.png');
+   
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.top-navbar{
+    border-bottom: 1px dotted white;
+}
+.logo-image{
+    width: 50px;
+    height: 50px;
+}
+
+li{
+    color: white;
+
+}
+.nav-tittle{
+    color: white;
+}
+
+hr{
+    border-top: 1px dotted red;
+}
+   .main-title1{
+    font-size: 2.5rem;
+    font-family: 'Kaushan Script', cursive;
+   }
+   .main-title2{
+    font-size: 4.1rem;
+    font-weight: 600;
+   }
+  .heading{
+      position: absolute;
+      top:60%;
+      left: 23%;
+      text-align: center;
+      color: white;
+     
+  }
+hr{
+   position:absolute;
+   top:5%;
+   border-top: 5px solid white;
+}
+
+
+
+.main-button{
+    
+    border-radius: 5%;
+    width:150px;
+    height:38px;
+     background-color: white;
+     font-size: 1.3rem;;
+}
+.main-button:hover{
+    background-color: rgb(16, 90, 16);
+    
+}
+li{
+    display:inline-block;
+}
+
+.burger-image{
+    
+    width: 91.9%;
+    height: 90%;
+    text-align:right;
+    float:right;
+
+}
+.icons{
+ text-align: left;
+}
+.middle-part{
+    display: inline-block;
+   
+    margin:5px 50px 10px 0px;
+}
+.image-area{ 
+   position: absolute;
+   z-index: -1;
+   margin:0px 50px 0px 104px;
+    width: 84.5%;
+    height:210%;
+    background-color: rgb(91, 236, 255);
+}
+.text-part{
+    background-color: white;
+}
+.middle-cont{
+   position: relative;
+   z-index: 1;
+   margin:70px 40px 50px 35px;
+   
+  }
+  .read-more{
+      background-color:  rgb(33, 170, 33);
+      width: 150px;
+      height: 40px;
+  }
+  .read-more:hover{
+    background-color:  white;
+  }
+p{
+    line-height: 1.5rem;
+}
+
+
+.seclast-footer{
+    background: rgb(33, 170, 33);
+    height: 90px;
+    color:white;
+    margin-top: 40%;
+ 
+}
+.last-footer{
+    background: black;
+    height: 250px;
+    color:white
+}
+.col-footer{
+    text-align: right;
+}
+.content{
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    border-right: 1px solid white;
+    
+    
+}
+
+.footer-icon{
+    color:rgb(33, 170, 33);
+}
+.input-box{
+    width:60%;
+    height:25%;
+    
+}
+.buttons{
+    width:60%;
+    margin-top: 20px;
+    height:25%;
+    background-color:rgb(28, 206, 28) ;
+   
+}
+.buttons:hover{
+    background-color: green;
+}
+.coloumn{
+    padding-top: 32px;
+    text-align: left;
+   
+}
+.main-heading{
+    color: rgb(33, 170, 33);
+}
+.copyright{
+    padding: 10px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+
+
+
+@media (max-width: 955px ) {
+
+    header {
+        height:100vh;
+        min-height:200px;
+        height: 900px;
+        background-size:cover;
+        background-image:url('image/backgroundimg.png');
+       
+         background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    .heading{
+        position: absolute;
+        top:100%;
+        left: 23%;
+        text-align: center;
+        color: white;
+       
+    }
+    .main-title1{
+        font-size: 1.5rem;
+        font-family: 'Kaushan Script', cursive;
+       }
+       .main-title2{
+        font-size: 2.1rem;
+        font-weight: 400;
+       }
+
+       .image-area{ 
+        position: absolute;
+        z-index: -1;
+        margin:0px 50px 0px 61px;
+         width: 81.5%;
+         height:410%;
+         background-color: rgb(91, 236, 255);
+     }
+     .burger-image{
+    
+        width: 100.9%;
+        height: 90%;
+        text-align:center;
+        
+    
+    }
+     .text-part{
+        background-color: white;
+        margin-top: 40px;
+    }
+       .col-footer{
+           font-size: 0.78rem;
+        text-align: left;
+    }
+    .content{
+        display: inline-block;
+        text-align: left;
+       
+    }
+    .coloumn{
+      margin: 32px 20px 5px 40px;
+        text-align: left;
+    }
+    .seclast-footer{
+        background: rgb(33, 170, 33);
+        height: 160px;
+        color:white;
+        margin-top: 40%;
+     
+    }
+    .last-footer{
+        background: black;
+        height: 650px;
+        color:white
+    }
+}
